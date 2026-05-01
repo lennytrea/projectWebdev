@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCP/IP Protocol - Internet Terminology Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="internet.html">Internet</a>
+        <a href="tcp-ip.html">TCP/IP</a>
+        <a href="ip-address.html">IP Address</a>
+        <a href="intranet.html">Intranet</a>
+        <a href="dns.html">DNS</a>
+        <a href="url-uri.html">URLs & URIs</a>
+        <a href="tld.html">TLDs</a>
+        <a href="www.html">WWW</a>
+        <a href="http.html">HTTP & HTTPS</a>
+        <a href="web-apps.html">Web Apps</a>
+        <a href="servers.html">Servers</a>
+    </nav>
+
+    <header>
+        <h1>TCP/IP Protocol</h1>
+        <p>The Protocol of the global network.</p>
+    </header>
+
+    <main>
+        <div class="image">
+            <img src="images/tcp-ip.jpg" alt="Data packets travelling between computers representing the TCP/IP model">
+        </div>
+
+        <section class="content-section">
+            <h2>What is TCP/IP?</h2>
+            <p>A set of protocols—that govern how data is sent and received across the internet. TCP/IP is the foundation of all internet communication.</p>
+
+            <h2>The Components</h2>
+            <dl>
+                <dt><strong>TCP (Transmission Control Protocol)</strong></dt>
+                <dd>Breaks data into packets and ensures they all arrive correctly in order.</dd>
+
+                <dt><strong>IP (Internet Protocol)</strong></dt>
+                <dd>Handles the addressing and routing of those packets to the right destination.</dd>
+            </dl>
+        </section>
+
+        <section class="how-it-works">
+            <h2>How It Works</h2>
+            <ul>
+                <li>Data is split into <strong>packets</strong>.</li>
+                <li>Each packet is labelled with a source and destination IP address</a>.</li>
+                <li>Packets travel independently and may take different routes.</li>
+                <li>TCP reassembles them in the correct order at the destination.</li>
+                <li>If any packet is lost, TCP requests it to be sent again.</li>
+            </ul>
+        </section>
+
+        <section class="layers">
+            <<section class="layers">
+    <h2>The Four Layers of TCP/IP</h2>
+    <ul>
+        <li>
+            <strong>1. Application Layer:</strong> 
+            What the user interacts with, including protocols like HTTP for web browsing and SMTP for email.
+        </li>
+        <li>
+            <strong>2. Transport Layer:</strong> 
+            Where TCP operates to manage the reliable, ordered delivery of data packets.
+        </li>
+        <li>
+            <strong>3. Internet Layer:</strong> 
+            Where IP handles the logical addressing and routing of packets to their destination.
+        </li>
+        <li>
+            <strong>4. Network Access Layer:</strong> 
+            The physical transmission of data bits over hardware like fiber cables or Wi-Fi.
+        </li>
+    </ul>
+</section>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
